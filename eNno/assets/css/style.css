@@ -69,7 +69,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #bdfdcd;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -150,7 +150,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #16df7e;
+  color: #ff9191;
 }
 
 .navbar .getstarted,
@@ -159,17 +159,16 @@ h6 {
   margin-left: 30px;
   border-radius: 4px;
   line-height: 1;
-  color: #5f687b;
+  background: #ff9191;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #cdd1d9;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  background: #206bfb;
+  background: #39806d;
   color: #fff;
-  border-color: #206bfb;
 }
 
 .navbar .dropdown ul {
