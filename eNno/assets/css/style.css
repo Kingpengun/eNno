@@ -69,7 +69,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #bdfdcd;
+  background: #e8fff0;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -290,7 +290,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #e8fff0;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -305,7 +305,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #16df7e;
+  color: #f77062;
 }
 
 .navbar-mobile .getstarted,
@@ -322,7 +322,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #e8fff0;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -341,7 +341,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #16df7e;
+  color: #f77062;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -354,7 +354,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #fff;
+  background: #e8fff0;
   padding-top: 82px;
 }
 
@@ -382,13 +382,13 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #16df7e;
-  box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
+  background: #f77062;
+  box-shadow: 0 8px 28px #fa9e94;
 }
 
 #hero .btn-get-started:hover {
-  background: #206bfb;
-  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+  background: #278575;
+  box-shadow: 0 8px 28px #5dd4c1;
 }
 
 #hero .btn-watch-video {
@@ -492,7 +492,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f9fa;
+  background-color: #e8fff0;
 }
 
 .section-title {
@@ -547,6 +547,7 @@ section {
 --------------------------------------------------------------*/
 .featured-services {
   padding: 0;
+  background: #e8fff0;
 }
 
 .featured-services .icon-box {
@@ -595,10 +596,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: #e8fff0;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #5f687b;
+  color: #278575;
 }
 
 .about .content ul {
@@ -625,6 +629,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding-top: 0;
+  background: #e8fff0;
 }
 
 .counts .counters span {
@@ -1019,12 +1024,15 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  background: #e8fff0;
+}
 .contact .info {
   border-top: 3px solid #16df7e;
   border-bottom: 3px solid #16df7e;
   padding: 30px;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: #d3f1de;
 }
 
 .contact .info i {
@@ -1092,7 +1100,7 @@ section {
   border-top: 3px solid #16df7e;
   border-bottom: 3px solid #16df7e;
   padding: 30px;
-  background-color: #f9f9fa;
+  background-color: #d3f1de;
 }
 
 .contact .php-email-form .form-group {
@@ -1251,7 +1259,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background-color: #f3f4f6;
+  background-color: #d3f1de;
   color: #5f687b;
   font-size: 14px;
   position: relative;
