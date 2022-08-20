@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #14c871;
+  color: #f77062;
   text-decoration: none;
 }
 
 a:hover {
-  color: #206bfb;
+  color: #278575;
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #33eb92;
+  background: #278575;
   color: #fff;
 }
 
@@ -363,7 +363,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #3e4450;
+  background-image: linear-gradient(to top, rgb(95, 212, 163) 0%, rgb(117, 223, 152) 70%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 #hero h2 {
@@ -973,6 +977,12 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+#team {
+  width: 100%;
+  background: #e8fff0;
+  padding-top: 200px;
+}
+
 .team .member {
   text-align: center;
   margin-bottom: 20px;
