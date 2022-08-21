@@ -557,9 +557,9 @@ section {
 .featured-services .icon-box {
   padding: 20px;
   color: #5f687b;
-  background: #e8fff0;
+  background: #daf3e2;
   border-radius: 4px;
-  border: 1px solid #e8fff0;
+  border: 0.5px solid #daf3e2;
   transition: 0.3s;
   height: 100%;
 }
@@ -585,7 +585,8 @@ section {
 }
 
 .featured-services .icon-box:hover {
-  border-color: #eaecef;
+  border-color: #278575;
+  transition: 0.3s;
 }
 
 .featured-services .icon-box:hover .title a {
