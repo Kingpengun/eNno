@@ -379,6 +379,7 @@ h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+  margin-right: 60px;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -393,6 +394,26 @@ h6 {
 #hero .btn-get-started:hover {
   background: #278575;
   box-shadow: 0 8px 28px #5dd4c1;
+}
+
+#hero .btn-donate-now {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-right: 60px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #278575;
+  box-shadow: 0 8px 28px #5dd4c1;
+}
+
+#hero .btn-donate-now:hover {
+  background: #f77062;
+  box-shadow: 0 8px 28px #fa9e94;
 }
 
 #hero .btn-watch-video {
